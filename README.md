@@ -20,11 +20,9 @@ Sebelum menjalankan proyek ini, pastikan Anda sudah menginstal:
 
 ## 🚀 Cara Instalasi
 
-1.  **Clone Repository**
-
-    ```bash
-    git clone [https://github.com/rizalizul/wokshop-game-store.git](https://github.com/rizalizul/wokshop-game-store.git)
-    ```
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/rizalizul/wokshop-game-store.git
 
 2.  **Pindahkan ke Folder Web Server**
     Jika menggunakan Laragon, pindahkan folder ke `C:\laragon\www\WOKSHOP`.
