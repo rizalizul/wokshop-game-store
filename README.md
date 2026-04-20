@@ -1,3 +1,69 @@
+# Wokshop Project 🎮
+
+Sistem informasi manajemen transaksi workshop/top-up game berbasis web menggunakan PHP Native. Proyek ini mencakup manajemen admin, pelanggan, bank, dan integrasi pembayaran.
+
+## 📁 Struktur Folder Utama
+
+- `/admin`: Dashboard manajemen dan CRUD data.
+- `/assets`: File statis (Bootstrap, CSS, JS, Images).
+- `/db`: Database script (`.sql`) dan konfigurasi koneksi.
+- `/pelanggan`: Antarmuka khusus pengguna/pelanggan.
+- `/informasi`: Halaman statis tentang layanan.
+
+## 🛠️ Prasyarat (Prerequisites)
+
+Sebelum menjalankan proyek ini, pastikan Anda sudah menginstal:
+
+- [Laragon](https://laragon.org/download/) atau XAMPP.
+- Web Browser (Chrome/Edge/Firefox).
+- PHP 7.4 atau versi terbaru.
+
+## 🚀 Cara Instalasi
+
+1.  **Clone Repository**
+
+    ```bash
+    git clone [https://github.com/rizalizul/wokshop-game-store.git](https://github.com/rizalizul/wokshop-game-store.git)
+    ```
+
+2.  **Pindahkan ke Folder Web Server**
+    Jika menggunakan Laragon, pindahkan folder ke `C:\laragon\www\WOKSHOP`.
+
+3.  **Persiapan Database**
+    - Buka **phpMyAdmin** atau **HeidiSQL**.
+    - Buat database baru dengan nama `db_wokshop`.
+    - Import file SQL yang berada di: `db/db_wokshop.sql`.
+
+4.  **Konfigurasi Koneksi**
+    - Buka file `db/koneksi.php`.
+    - Sesuaikan `hostname`, `username`, `password`, dan `database_name` dengan environment Anda.
+
+    ```php
+    $host = "localhost";
+    $user = "root";
+    $pass = "";
+    $db   = "db_wokshop";
+    ```
+
+5.  **Jalankan Proyek**
+    - Nyalakan Apache dan MySQL di Laragon/XAMPP.
+    - Akses melalui browser: `http://localhost/WOKSHOP` atau `http://wokshop.test`.
+
+## 🔑 Akun Akses (Default)
+
+- **Admin:** admin / admin
+- **Pelanggan:** pelanggan1 / pelanggan1
+
+## 🏗️ Dibuat Dengan
+
+- [PHP Native](https://www.php.net/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- [jQuery](https://jquery.com/)
+- [MySQL](https://www.mysql.com/)
+
+---
+
+Dibuat oleh [Rizal]
 
 ```
 WOKSHOP
